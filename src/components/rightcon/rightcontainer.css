@@ -1,0 +1,5 @@
+.right-side-container{
+    height: 100%;
+    width: calc(100% - 70px);
+    /* padding: 10px; */
+}
