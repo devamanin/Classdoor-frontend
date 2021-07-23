@@ -1,0 +1,58 @@
+.navbar-container{
+    width: 70px;
+    height: 100%;
+    background-color: rgb(16, 18, 18);
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+.route-link{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    color: rgb(16, 18, 18);
+    position: relative;
+}
+.route-link.active::before{
+    content: ' ';
+    display: block;
+    width: 5px;
+    height: 100%;
+    background-color: yellow;
+    position: absolute;
+    left: 0;
+}
+.route-link i{
+    color: white;
+    font-size: 35px;
+}
+.route-link:hover{
+    background-color: rgb(173, 173, 173);
+    color: rgb(173, 173, 173);
+}
+.route-link:hover > i{
+    color: black;
+}
+.signout-link{
+    position: absolute;
+    bottom: 0;
+    font-size: 35px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 70px;
+    width: 100%;
+    color: black;
+}
+.signout-link i{
+    color: white;
+}
+.signout-link:hover{
+    background-color: rgb(252, 142, 142);
+    color: rgb(252, 142, 142);
+}
+
+.signout-link:hover > i{
+    color: rgb(226, 0, 0);
+}
