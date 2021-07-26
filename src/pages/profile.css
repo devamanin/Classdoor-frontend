@@ -10,11 +10,14 @@
     font-size: 28px;
     margin-top: 30px;
     color: white;
+    /* color: rgb(44, 44, 44); */
 }
 .profile-container .detail-container{
     width: 95%;
     height: 500px;
-    background-color: rgb(240, 240, 240);
+    /* background-color: rgb(240, 240, 240); */
+    background-color: #C0C0C0;
+    box-shadow: 0 0 14px 1px #363636;
     margin-top: 50px;
     border-radius: 10px;
 }

@@ -1,0 +1,164 @@
+.container{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 100%;
+    background-color: #242424;
+}
+.container .login-container{
+    background-color: transparent;
+    /* background-color: green; */
+    width: 380px;
+    height: 600px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.container .login-container .logo{
+    display: flex;
+    justify-content: center;
+    width: auto;
+    height: 90px;
+    margin-top: 50px;
+}
+.container .login-container .logo span{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 52px;
+    font-weight: 600;
+    color: #fff;
+}
+.container .login-container .input-container{
+    display: flex;
+    flex-direction: column;
+    /* justify-content: center; */
+    /* background-color: yellowgreen; */
+    align-items: center;
+    width: 260px;
+    height: 400px;
+    margin-top: 10px;
+}
+.container .login-container .input-container .username-box{
+    position: relative;
+    /* width: 260px; */
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    color: #fff;
+}
+.container .login-container .input-container .username-box .username{
+    width: 253px;
+    height: 30px;
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    font-size: 16px;
+    color: #fff;
+}
+.container .login-container .input-container .username-box .username-label{
+    position: absolute;
+    top: calc((30px / 2) - 4px);
+    left: 0;
+    font-size: 18px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.container .login-container .input-container .username-box .username:focus ~ .username-label{
+    top: -10px;
+    font-size: 14px;
+}
+.container .login-container .input-container .username-box .username:not(:placeholder-shown) ~ .username-label{
+    top: -10px;
+    font-size: 14px;
+}
+
+
+
+/* For Password Container */
+
+.container .login-container .input-container .password-box{
+    position: relative;
+    width: auto;
+    font-family: Arial, Helvetica, sans-serif;
+    font-weight: 600;
+    margin-top: 40px;
+    color: #fff;
+}
+.container .login-container .input-container .password-box .password{
+    width: 253px;
+    height: 30px;
+    /* padding: 5px; */
+    padding-top: 5px;
+    padding-left: 0;
+    padding-right: 0;
+    padding-bottom: 5px;
+    background-color: transparent;
+    border: 0;
+    outline: 0;
+    border-bottom-width: 2px;
+    border-bottom-style: solid;
+    border-bottom-color: #fff;
+    font-size: 16px;
+    color: #fff;
+}
+.container .login-container .input-container .password-box .password-label{
+position: absolute;
+    top: calc((30px / 2) - 4px);
+    left: 0;
+    font-size: 18px;
+    pointer-events: none;
+    transition: all 0.3s;
+}
+.container .login-container .input-container .password-box .password:focus ~ .password-label{
+    top: -10px;
+    font-size: 14px;
+}
+.container .login-container .input-container .password-box .password:not(:placeholder-shown) ~ .password-label{
+    top: -10px;
+    font-size: 14px;
+}
+
+/* For signin button */
+.container .login-container .input-container .signin-box{
+    margin-top: 70px;
+}
+.container .login-container .input-container .signin-box .signin-button{
+    width: 253px;
+    background-color: transparent;
+    height: 35px;
+    border-style: solid;
+    border-width: 2px;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 14px;
+    color: rgb(194, 194, 194);
+    outline: 0;
+}
+.container .login-container .login-container-footer{
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 12px;
+    color: rgb(209, 209, 209);
+}
+.container .login-container .login-container-footer span:nth-child(2){
+    margin-top: 10px;
+    
+}
+.container .login-container .login-container-footer span a{
+    color: white;
+    text-decoration: underline;
+    color: rgb(209, 209, 209);
+   
+}
+
